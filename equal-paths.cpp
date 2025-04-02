@@ -8,7 +8,7 @@ using namespace std;
 
 
 // You may add any prototypes of helper functions here
-
+bool checkEqualPaths(Node* node, int depth, int &firstLeafDepth);
 bool equalPaths(Node * root)
 {
     // Add your code below
